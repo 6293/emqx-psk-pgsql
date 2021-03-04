@@ -3,7 +3,7 @@
   {vsn,"git"},
   {modules,[]},
   {registered,[emqx_psk_pgsql_sup]},
-  {applications,[kernel,stdlib]},
+  {applications,[kernel,stdlib,epgsql,ecpool]},
   {mod,{emqx_psk_pgsql_app,[]}},
   {env, []},
   {maintainers, ["Alexander Mihajlovic <alexander.mihajlovic@endian.se>"]}

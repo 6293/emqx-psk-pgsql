@@ -4,8 +4,8 @@
 
 -include("emqx_psk_pgsql.hrl").
 
--include_lib("emqx/include/emqx.hrl").
--include_lib("emqx/include/logger.hrl").
+-include_lib("emqx.hrl").
+-include_lib("logger.hrl").
 
 -export([connect/1]).
 
